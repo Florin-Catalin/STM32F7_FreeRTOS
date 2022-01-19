@@ -11,3 +11,13 @@
 Case 1 : [Use ARM Semi-hosting feature to print logs on the console](https://github.com/Florin-Catalin/STM32F7_FreeRTOS/tree/arm-semi-hosting-ex1)
 
 Case 2 : [Use UART peripheral of the MCU to print logs]( coming soon)
+
+# Clock configuration
+
+```c
+#define configCPU_CLOCK_HZ                (SystemCoreClock)
+```
+```c
+ uint32_t SystemCoreClock = 16000000;
+```
+![HSI, high speed integration](assets/HSI.png)
