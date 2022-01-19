@@ -21,3 +21,4 @@ Case 2 : [Use UART peripheral of the MCU to print logs]( coming soon)
  uint32_t SystemCoreClock = 16000000;
 ```
 ![HSI, high speed integration](assets/HSI.png)
+ Derived from RC oscillator internal to the MCU. PLLCLK is used to produce high-speed clocks, up to 216 MHz. By default PLLCLK is off, and HSI is the default clock.
